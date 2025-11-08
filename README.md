@@ -4,6 +4,11 @@ Prototype first-person shooter built in Unity using the new Input System. The de
 
 <img width="705" height="1073" alt="image" src="https://github.com/user-attachments/assets/e9969419-06ac-428f-847f-f61ee2da0906" />
 
+<p align="center">
+  <a href="https://www.youtube.com/shorts/8OeAJmxXSys">▶ Watch on YouTube</a>
+</p>
+
+
 ## Overview
 - **Player Input:** Input Actions map movement, look, shooting, shooting release, and reloading. Callbacks drive weapon logic through `Send Messages` (methods named `On<ActionName>`).
 - **Weapon Behaviour:** The `Gun` component enforces fire rate, manages magazine ammo, plays a reload sway, and instantiates the `RifleBullet` prefab from a muzzle transform.
