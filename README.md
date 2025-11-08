@@ -2,6 +2,8 @@
 
 Prototype first-person shooter built in Unity using the new Input System. The demo showcases a controllable FPS camera, a rifle with a simple recoil animation, and spawning bullet prefabs with optional lifetime cleanup.
 
+<img width="705" height="1073" alt="image" src="https://github.com/user-attachments/assets/e9969419-06ac-428f-847f-f61ee2da0906" />
+
 ## Overview
 - **Player Input:** Input Actions map movement, look, shooting, shooting release, and reloading. Callbacks drive weapon logic through `Send Messages` (methods named `On<ActionName>`).
 - **Weapon Behaviour:** The `Gun` component enforces fire rate, manages magazine ammo, plays a reload sway, and instantiates the `RifleBullet` prefab from a muzzle transform.
